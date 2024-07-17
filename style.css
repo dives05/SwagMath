@@ -1,0 +1,121 @@
+* {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    background-color: rgb(46, 46, 50);
+}
+.navbar {
+    background: linear-gradient(to bottom right, skyblue, violet, tomato);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    transition: 0.4s;
+    background-color: rgb(46, 46, 50, 0);
+    margin-right: 25px;
+    border-radius: 10px;
+}
+li a{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.4s;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+button a{
+    color: white;
+    font-weight: 600;
+}
+button:hover {
+    transform: scale(1.2);
+}
+li:hover {
+    transform: scale(1.2);
+    background-color:  rgb(46, 46, 50, 0.5);
+    border-radius: 10px;
+}
+img {
+    padding: 8px;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    transition: 0.4s;
+}
+img:hover {
+    transform: scale(1.1);
+}
+.games {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+.gamebox {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(40, 40, 44, 1);
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+}
+.header {
+    height: 150px;
+}
+.navlogo {
+    height: 20px;
+    width: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+.default {
+    height: 600px;
+    width: 1000px;
+}
+.thin {
+    height: 600px;
+    width: 490px;
+}
