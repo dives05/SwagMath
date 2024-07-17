@@ -4,6 +4,7 @@
 body {
     margin: 0;
     background-color: rgb(46, 46, 50);
+    background-image: url(images/background3.png);
 }
 .navbar {
     background: linear-gradient(to bottom right, skyblue, violet, tomato);
@@ -118,4 +119,14 @@ iframe {
 .thin {
     height: 600px;
     width: 490px;
+}
+.logoimg {
+    height: 20px;
+    width: 48px;
+    position: absolute;
+    left: 30px;
+    top: -15px;
+}
+.wordlogo {
+    position: sticky;
 }
