@@ -207,3 +207,19 @@ iframe {
     font-size: 0px;
     position: relative;
   }
+
+  #biotext {
+    background: black;
+
+    width: 80%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    padding: 30px;
+    font-size: 24px;
+    filter: drop-shadow(0 0 20px black);
+    text-align: center;
+  }
