@@ -2,28 +2,9 @@
     text-decoration: none;
 }
 
-body {
-    margin: 0;
-    background-color: rgb(46, 46, 50);
-    background-image: url(images/background3.png);
-}
+/* Index */
 
-li {
-    list-style: none;
-    display: inline-block;
-    transition: 0.4s;
-    background-color: rgb(46, 46, 50, 0);
-    margin-right: 25px;
-    border-radius: 10px;
-}
-
-
-li a{
-    font-size: 25px;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-}
+/* NavBar */
 
 .navbar {
     background: linear-gradient(to bottom right, skyblue, violet, tomato);
@@ -50,6 +31,70 @@ li a{
     font-size: 35px;
     color: white;
     font-weight: 600;
+}
+
+.navlogo {
+    height: 20px;
+    width: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.logoimg {
+    height: 20px;
+    width: 48px;
+    position: absolute;
+    left: 30px;
+    top: -15px;
+}
+
+.wordlogo {
+    position: sticky;
+}
+
+/* Header */
+
+/* Search Bar */
+
+#searchbar {
+    padding: 6px;
+    height: 30px;
+    width: 250px;
+    border-style: none;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0 0 30px black;
+    transition: 0.2s;
+}
+
+#searchbar:active {
+    transform: scale(.9);
+}
+
+body {
+    margin: 0;
+    background-color: rgb(46, 46, 50);
+    background-image: url(images/background3.png);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    transition: 0.4s;
+    background-color: rgb(46, 46, 50, 0);
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+
+li a{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
 }
 
 button {
@@ -132,14 +177,7 @@ h1 {
 }
 
 .header {
-    height: 230px;
-}
-
-.navlogo {
-    height: 20px;
-    width: 20px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    height: 210px;
 }
 
 iframe {
@@ -155,36 +193,6 @@ iframe {
 .thin {
     height: 600px;
     width: 490px;
-}
-
-.logoimg {
-    height: 20px;
-    width: 48px;
-    position: absolute;
-    left: 30px;
-    top: -15px;
-}
-
-.wordlogo {
-    position: sticky;
-}
-
-#searchbar {
-    padding: 6px;
-    height: 30px;
-    width: 250px;
-    border-style: none;
-    display: block;
-    margin: 0 auto;
-    border-radius: 5px;
-    font-size: 17px;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    box-shadow: 0 0 30px black;
-    transition: 0.2s;
-}
-
-#searchbar:active {
-    transform: scale(.9);
 }
 
 /* width */
@@ -270,6 +278,6 @@ iframe {
     height: 2px;
     width: 100%;
     background: linear-gradient(to right, rgb(0, 0, 0, 0), skyblue, violet, tomato, rgb(0, 0, 0, 0));
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
   }
