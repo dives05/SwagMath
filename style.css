@@ -281,3 +281,15 @@ iframe {
     margin-top: 30px;
     margin-bottom: 20px;
   }
+
+  .logo3img {
+    height: 40px;
+    width: 96px;
+    border-radius: 0;
+    position: absolute;
+    transform: translate(-280%, -35%);
+  }
+
+  #headerword {
+    position: relative;
+  }
