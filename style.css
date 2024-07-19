@@ -99,13 +99,16 @@ img {
     box-shadow: 0 0 20px black;
 }
 
-img:hover {
-    transform: scale(1.1);
-}
-
 .games {
-    margin-left: 50px;
-    margin-right: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    justify-content: center;
+    order: 0;
+    align-items: center;
+    width: 100%;
 }
 
 h1 {
@@ -205,8 +208,13 @@ iframe {
   }
 
   .actbox {
-    font-size: 0px;
     position: relative;
+    transition: 0.4s;
+  }
+
+  .actbox:hover {
+    transform: scale(1.1);
+    z-index: 98;
   }
 
   #biotext {
@@ -223,4 +231,24 @@ iframe {
     font-size: 24px;
     filter: drop-shadow(0 0 20px black);
     text-align: center;
+  }
+
+  .acttext {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    /* background: linear-gradient(to bottom right, skyblue, violet, tomato);*/
+    background-color: rgb(25, 25, 26);
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    filter: drop-shadow(0 0 10px black);
+  }
+  
+  .acttext:hover {
+    opacity: 1;
   }

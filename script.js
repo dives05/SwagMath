@@ -21,3 +21,19 @@ function search_act() {
     }
   }
 }
+
+function descShow(elem) {
+  const desc = elem.querySelector("desc");
+  if (desc) {
+    desc.style.visibility = "visible";
+    desc.style.opacity = "1";
+  }
+}
+
+function descHide(elem) {
+  const desc = elem.querySelector("desc");
+  if (desc) {
+    desc.style.visibility = "invisible";
+    desc.style.opacity = "0";
+  }
+}
