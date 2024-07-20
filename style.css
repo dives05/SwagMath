@@ -76,7 +76,6 @@
 
 body {
     margin: 0;
-    background-color: rgb(46, 46, 50);
     background-image: url(images/background3.png);
 }
 
@@ -98,14 +97,16 @@ li a{
 }
 
 button {
-    background-color: black;
+    background-color: rgb(25, 25, 26);
     color: white;
     font-weight: bold;
     margin-left: 10px;
     border-style: none;
     border-radius: 10px;
     font-size: 20px;
-    width: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+
     height: 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     transition: 0.4s;
@@ -176,10 +177,6 @@ h1 {
     box-shadow: 0 0 20px black;
 }
 
-.header {
-    height: 210px;
-}
-
 iframe {
     display: block;
     margin: 0 auto;
@@ -247,19 +244,14 @@ iframe {
     position: absolute;
     color: white;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 0px;
     border-radius: 20px;
-    /* background: linear-gradient(to bottom right, skyblue, violet, tomato);*/
     background-color: rgb(25, 25, 26);
     left: 50%;
     top: 90%;
     transform: translate(-50%, -50%);
     text-align: center;
     filter: drop-shadow(0 0 10px black);
-/*
-    border: solid;
-    background: linear-gradient(to bottom right, skyblue, violet, tomato) 1;
-*/
   }
 
   .acttext {
@@ -272,6 +264,7 @@ iframe {
     background: rgb(25, 25, 26);
     padding: 10px;
     border-radius: 17px;
+    font-size: 30px;
   }
 
   .divider {
@@ -292,4 +285,45 @@ iframe {
 
   #headerword {
     position: relative;
+  }
+
+  .btn-group button {
+    background-color: rgb(25, 25, 26); /* Green background */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    margin: 10px;
+    text-align: center;
+  }
+
+  .btn-group {
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    justify-content: center;
+    order: 0;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+
+  button {
+    padding: 3px;
+  }
+  
+  button>div {
+    background: rgb(25, 25, 26);
+    padding: 5px;
+    border-radius: 9px;
   }

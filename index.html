@@ -39,29 +39,53 @@
         </h1>
 
         <input type="text" placeholder="Search.." id="searchbar" onkeyup="search_act()">
-        <div class="divider"></div>
+        <div class="btn-group">
+            <button onclick="category(this)" class="category" style="background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.25, skyblue), color-stop(0.5, violet), color-stop(0.75, tomato));"><div>All</div></button>
+            <button onclick="category(this)" class="category"><div>Mobile</div></button>
+            <button onclick="category(this)" class="category"><div>Puzzle</div></button>
+            <button onclick="category(this)" class="category"><div>Platformer</div></button>
+            <button onclick="category(this)" class="category"><div>Multiplayer</div></button>
+        </div>
+        
     </div>
+
+    <div class="divider"></div>
 
     <div class="games">
         <a href="activities/2048.html" class="actbox" onmouseover="descShow(this)" onmouseout="descHide(this)">
             <img src="images/icons/2048_logo.svg.png" class="activity">
-            <desc class="acttext" style="visibility: hidden; opacity: 0;"><div>2048</div></desc>
+            <desc class="acttext" style="visibility: hidden; opacity: 0;">
+                <div>2048</div>
+                all, mobile, puzzle
+            </desc>
         </a>
         <a href="activities/wordle.html" class="actbox" onmouseover="descShow(this)" onmouseout="descHide(this)">
             <img src="images/icons/wordle.jpeg" class="activity">
-            <desc style="visibility: hidden; opacity: 0;" class="acttext"><div>Wordle Unlimited</div></desc>
+            <desc style="visibility: hidden; opacity: 0;" class="acttext">
+                <div>Wordle Unlimited</div>
+                all, mobile, puzzle
+            </desc>
         </a>
         <a href="activities/slope.html" class="actbox" onmouseover="descShow(this)" onmouseout="descHide(this)">
             <img src="images/icons/slope.png" class="activity">
-            <desc style="visibility: hidden; opacity: 0;" class="acttext"><div>Slope</div></desc>
+            <desc style="visibility: hidden; opacity: 0;" class="acttext">
+                <div>Slope</div>
+                all
+            </desc>
         </a>
         <a href="activities/1v1-lol.html" class="actbox" onmouseover="descShow(this)" onmouseout="descHide(this)">
             <img src="images/icons/1v1lol-1.jpg" class="activity" >
-            <desc style="visibility: hidden; opacity: 0;" class="acttext"><div>1v1.lol</div></desc>
+            <desc style="visibility: hidden; opacity: 0;" class="acttext">
+                <div>1v1.lol</div>
+                all, multiplayer
+            </desc>
         </a>
         <a href="activities/example.html" class="actbox" onmouseover="descShow(this)" onmouseout="descHide(this)">
             <img src="images/NCLogo.jpg" class="activity">
-            <desc style="visibility: hidden; opacity: 0;" class="acttext"><div>Example</div></desc>
+            <desc style="visibility: hidden; opacity: 0;" class="acttext">
+                <div>Example</div>
+                all
+            </desc>
         </a>
     </div>
 

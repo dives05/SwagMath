@@ -37,3 +37,24 @@ function descHide(elem) {
     desc.style.opacity = "0";
   }
 }
+
+function category(elem) {
+  let y = document.getElementsByClassName("category");
+  for (j = 0; j < y.length; j++) {
+    y[j].style.backgroundImage = "none";
+  }
+  let input = elem.textContent;
+  elem.style.backgroundImage = "-webkit-gradient(linear, left top, right bottom, color-stop(0.25, skyblue), color-stop(0.5, violet), color-stop(0.75, tomato))";
+  elem.style.padding = "3px";
+  input = input.toLowerCase();
+  let x = document.getElementsByClassName('actbox');
+
+  for (i = 0; i < x.length; i++) {
+    if (!x[i].innerHTML.toLowerCase().includes(input)) {
+      x[i].style.display = "none";
+    }
+    else {
+      x[i].style.display = "inline-block";
+    }
+  }
+}
