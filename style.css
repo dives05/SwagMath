@@ -245,6 +245,7 @@ iframe {
   .biolink {
     color: white;
     text-decoration: underline;
+    position: relative;
   }
 
   .acttext {
@@ -333,4 +334,13 @@ iframe {
     background: rgb(25, 25, 26);
     padding: 5px;
     border-radius: 9px;
+  }
+
+  #biologo {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 0;
+    position: relative;
+    bottom: -25px;
   }
