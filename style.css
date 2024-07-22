@@ -328,6 +328,8 @@ iframe {
 
   button {
     padding: 3px;
+    border-color: white;
+    border: solid 3px;
   }
   
   button>div {
@@ -343,4 +345,8 @@ iframe {
     border-radius: 0;
     position: relative;
     bottom: -25px;
+  }
+
+  .category {
+    border: none;
   }
