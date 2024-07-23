@@ -54,6 +54,10 @@
 
 /* Header */
 
+#headerword {
+  position: relative;
+}
+
 /* Search Bar */
 
 #searchbar {
@@ -291,10 +295,6 @@ iframe {
     transform: translate(-280%, -35%);
   }
 
-  #headerword {
-    position: relative;
-  }
-
   .btn-group button {
     background-color: rgb(25, 25, 26); /* Green background */
     color: white; /* White text */
@@ -327,7 +327,7 @@ iframe {
   /* Add a background color on hover */
 
   button {
-    padding: 3px;
+    padding: 5px;
     border-color: white;
     border: solid 3px;
   }
@@ -349,4 +349,5 @@ iframe {
 
   .category {
     border: none;
+    padding: 3px;
   }
