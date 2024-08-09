@@ -352,3 +352,8 @@ iframe {
     border: none;
     padding: 3px;
   }
+
+  .bottombar {
+    position: fixed;
+    bottom: 0px;
+  }
